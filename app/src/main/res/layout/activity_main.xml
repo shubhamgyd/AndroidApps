@@ -17,12 +17,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/nameIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:ems="10"
-        android:hint="Shubham Yadav"
+        android:hint="name"
         android:textAlignment="center"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,8 +38,9 @@
         android:text="Create Birthday Card"
         android:padding="30dp"
         android:textAllCaps="false"
+        android:onClick="createBirthdayCard"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/nameIn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
